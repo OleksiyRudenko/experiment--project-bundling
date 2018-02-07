@@ -30,7 +30,7 @@ And here we go!
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Steps](#steps)
   - [Initial situation](#initial-situation)
@@ -68,6 +68,8 @@ Publishing on [github.io](https://github.io/)
     (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](/experiment--project-bundling/src/))
 
 The app runs smoothly.
+
+[_-- back to TOC --_](#table-of-contents)
 
 ### Targets
 
@@ -112,3 +114,5 @@ For the purpose of this experiment we shall employ:
  - `webpack` and `parcel` as bundlers, each under its own branch set
  - `babel`, `autoprefixer` and some other plugins to transform
    the code to meet targets
+
+[_-- back to TOC --_](#table-of-contents)
