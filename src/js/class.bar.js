@@ -1,4 +1,4 @@
-class Bar {
+export default class Bar {
   constructor(htmlElement) {
     this.htmlElement = htmlElement;
     this.name = 'Bar';

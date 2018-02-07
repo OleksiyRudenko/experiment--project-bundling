@@ -1,3 +1,7 @@
+import Bar from './class.bar.js';
+import FooTon from './class.footon.js';
+import FooGas from './class.foogas.js';
+
 const bar = new Bar(document.getElementById('bar'));
 bar.render();
 

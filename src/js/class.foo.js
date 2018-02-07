@@ -1,4 +1,4 @@
-class Foo {
+export default class Foo {
   constructor(htmlElement) {
     this.htmlElement = htmlElement;
     this.name = 'Foo';
