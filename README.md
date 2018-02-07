@@ -63,6 +63,6 @@ Publishing on [github.io](https://github.io/)
  2) `git merge as-is`
  3) `git push`
  4) navigate to `your-github-id.github.io/repo-name/src/`
-    (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](OleksiyRudenko.github.io/experiment--project-bundling/src/))
+    (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](/experiment--project-bundling/src/))
 
 The app runs smoothly.
