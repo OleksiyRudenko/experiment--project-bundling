@@ -1,0 +1,9 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Experimenting with builders",
+  "main": "src/index.html",
+  "repository": "https://github.com/OleksiyRudenko/experiment--project-bundling.git",
+  "author": "Oleksiy Rudenko <oleksiy.rudenko@gmail.com>",
+  "license": "MIT"
+}
