@@ -37,6 +37,7 @@ And here we go!
   - [Initial situation](#initial-situation)
   - [Targets](#targets)
   - [Putting project under dependency management control](#putting-project-under-dependency-management-control)
+  - [Code Refactoring](#code-refactoring)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -157,6 +158,21 @@ Next steps described under assumption that you have `node`, `yarn`,
 We also created two subdirectories where builders would place
 their results to. We also keep these under version control to
 simplify publishing at `github pages`.
+
+This step doesn't affect app performance in either way.
+
+[_-- back to TOC --_](#table-of-contents)
+
+### Code Refactoring
+
+Introduce code modularity by employing
+ - `import/export` at JS code base
+ - `type=module` at HTML inclusions
+
+Important notes:
+ * `index.html`: include bootstrapping script only
+ * `*.js`: `import...` - had to add `.js` to source name, or otherwise browser reports
+     `GET .../src/js/class.foo net::ERR_ABORTED` and alike;
 
 This step doesn't affect app performance in either way.
 
