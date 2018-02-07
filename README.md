@@ -44,6 +44,7 @@ And here we go!
 
 ```
  master (major branch)
+ |- affidavit (documentation)
  \- as-is (app code base state before any builder involved)
     \- build-preps (a step required before any builder employed)
        \- code-refactor (initial code refactoring)
@@ -53,6 +54,8 @@ And here we go!
           \- webpack/step1 (initial app state to app bundled with `webpack` evolutionary step)
              |- webpack/step2 (step2 of the above)
              |- ...
+
+gh-pages (publishing media)
 ```
 
 The diagram above reflects the evolutionary relations between branches
