@@ -60,6 +60,8 @@ To launch the app:
 
 Publishing on [github.io](https://github.io/)
  1) `git checkout gh-pages`
+    (make sure `gh-pages` branch exists; if not then either pull it
+    from the repo or employ `-b` option)
  2) `git merge as-is`
  3) `git push`
  4) navigate to `your-github-id.github.io/repo-name/src/`
