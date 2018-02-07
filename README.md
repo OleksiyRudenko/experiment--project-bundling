@@ -34,6 +34,7 @@ And here we go!
 
 - [Steps](#steps)
   - [Initial situation](#initial-situation)
+  - [Targets](#targets)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -103,3 +104,11 @@ Today [Feb 2018] popular options to choose among are:
 
 Some of the above are employed as plugins to bundlers/builders,
 so packages specific to that or other builder/bundler may be required.
+
+For the purpose of this experiment we shall employ:
+ - [NodeJS](https://nodejs.org/) as a core platform
+ - [yarn](https://yarnpkg.com/) to manage dependencies
+   (alternative is `npm`, which comes bundled with `node`)
+ - `webpack` and `parcel` as bundlers, each under its own branch set
+ - `babel`, `autoprefixer` and some other plugins to transform
+   the code to meet targets
