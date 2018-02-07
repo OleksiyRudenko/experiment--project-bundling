@@ -42,12 +42,25 @@ And here we go!
 
 ## Repo structure
 
- - `master` - major branch
- - `gh-pages` - branch for publishing on [github.io](https://github.io)
- - `as-is` - app code base state before any builder involved
- - `build-preps` - a step required before any builder employed
- - `parcel/*` - initial app state to app bundled with `parcel` evolutionary steps
- - `webpack/*` - initial app state to app bundled with `webpack` evolutionary steps
+```
+ master (major branch)
+ \- as-is (app code base state before any builder involved)
+    \- build-preps (a step required before any builder employed)
+       \- code-refactor (initial code refactoring)
+          |- parcel/step1 (initial app state to app bundled with `parcel` evolutionary step)
+          |  |- parcel/step2 (step2 of the above)
+          |  |- ...
+          \- webpack/step1 (initial app state to app bundled with `webpack` evolutionary step)
+             |- webpack/step2 (step2 of the above)
+             |- ...
+```
+
+The diagram above reflects the evolutionary relations between branches
+(e.g. both `parcel/step1` and `webpack/step1` are spin-offs
+of `code-refactor`, and `parcel/step2` is a spin-off of `parcel/step1`).
+
+`gh-pages` can have any other branch merged into serving as a publishing
+media.
 
 [_-- back to TOC --_](#table-of-contents)
 
