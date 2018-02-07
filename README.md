@@ -55,6 +55,14 @@ App OO model:
 
 ```
 
-To launch the app just open `src/index.html`.
+To launch the app:
+ 1) open `src/index.html` in your browser
+
+Publishing on [github.io](https://github.io/)
+ 1) `git checkout gh-pages`
+ 2) `git merge as-is`
+ 3) `git push`
+ 4) navigate to `your-github-id.github.io/repo-name/src/`
+    (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](OleksiyRudenko.github.io/experiment--project-bundling/src/))
 
 The app runs smoothly.
