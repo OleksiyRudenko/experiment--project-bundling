@@ -115,4 +115,7 @@ For the purpose of this experiment we shall employ:
  - `babel`, `autoprefixer` and some other plugins to transform
    the code to meet targets
 
+Next steps described under assumption that you have `node`, `yarn`,
+`parcel`, and `webpack` installed globally.
+
 [_-- back to TOC --_](#table-of-contents)
