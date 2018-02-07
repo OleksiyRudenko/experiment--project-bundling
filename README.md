@@ -68,3 +68,39 @@ Publishing on [github.io](https://github.io/)
     (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](/experiment--project-bundling/src/))
 
 The app runs smoothly.
+
+### Targets
+
+Our app may be quite big with lots of JS spread across many
+script files, many assets etc. So we want to:
+ - bundle all `.js` into a single script to save on `http` requests
+ - bundle all app styles into a single `.css`
+   (probably, with the only exception when we want to split those
+   per media queries)
+   to save on `http` requests
+ - lint all the code
+ - make our ES6 compliant JS code compatible with the majority
+   of browsers
+ - minify `.html`, `.js` and `.css`
+ - manage assets efficiently
+ - conduct auto-tests etc.
+
+So, we need to employ app building tools: code bundlers, linters,
+transpilers, minifiers etc.
+
+Today [Feb 2018] popular options to choose among are:
+ - [webpack](https://webpack.js.org/)
+ - [browserify](http://browserify.org/)
+ - [rollup](https://rollupjs.org/guide/en)
+ - [parcel](https://parceljs.org/)
+ - [gulp](https://gulpjs.com/)
+ - [grunt](https://gruntjs.com/)
+ - [babel](https://babeljs.io/)
+ - [uglify-es](https://www.npmjs.com/package/uglify-es)
+ - [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+ - [PostCSS](http://postcss.org/)
+ - [PostHTML](https://github.com/posthtml/posthtml)
+ - et al
+
+Some of the above are employed as plugins to bundlers/builders,
+so packages specific to that or other builder/bundler may be required.
