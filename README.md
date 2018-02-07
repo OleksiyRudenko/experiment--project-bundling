@@ -32,12 +32,23 @@ And here we go!
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Repo structure](#repo-structure)
 - [Steps](#steps)
   - [Initial situation](#initial-situation)
   - [Targets](#targets)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Repo structure
+
+ - `master` - major branch
+ - `gh-pages` - branch for publishing on [github.io](https://github.io)
+ - `as-is` - app code base state before any builder involved
+ - `build-preps` - a step required before any builder employed
+ - `parcel/*` - initial app state to app bundled with `parcel` evolutionary steps
+ - `webpack/*` - initial app state to app bundled with `webpack` evolutionary steps
+
+[_-- back to TOC --_](#table-of-contents)
 
 ## Steps
 
