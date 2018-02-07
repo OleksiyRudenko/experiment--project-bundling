@@ -52,19 +52,18 @@ App OO model:
     Foo <--- FooTon
           \- FooGas
     Bar
-
 ```
 
 To launch the app:
- 1) open `src/index.html` in your browser
+ 1. open `src/index.html` in your browser
 
 Publishing on [github.io](https://github.io/)
- 1) `git checkout gh-pages`
+ 1. `git checkout gh-pages`
     (make sure `gh-pages` branch exists; if not then either pull it
     from the repo or employ `-b` option)
- 2) `git merge as-is`
- 3) `git push`
- 4) navigate to `your-github-id.github.io/repo-name/src/`
+ 2. `git merge as-is`
+ 3. `git push`
+ 4. navigate to `your-github-id.github.io/repo-name/src/`
     (e.g. [OleksiyRudenko.github.io/experiment--project-bundling/src/](/experiment--project-bundling/src/))
 
 The app runs smoothly.
